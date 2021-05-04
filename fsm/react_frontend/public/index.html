@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+    <head>
+        <script src="/static/lib/jquery-3.5.1.slim.min.js"></script>
+        <script src="/static/lib/popper.min.js"></script>
+        <script src="/static/lib/bootstrap.min.js"></script>
+
+        <link rel="shortcut icon" href="/static/images/logo.jpg">
+        <link rel="stylesheet" href="/static/lib/bootstrap.min.css">
+
+        <meta charset="UTF-8">
+        <meta charset="UTF-8">
+        <meta name="description"
+              content="This application was developed in order to make it easier to organize driving times at a driving school.">
+
+        <meta name="keywords" content="School, Driving">
+        <meta name="author" content="Valentin Svet">
+        <meta name="application-name" content="Fahrschule">
+        <meta name="robots" content="noimageindex, noarchive">
+        <meta id="viewport"
+              name="viewport"
+              content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+
+        <title id="title">Fahrstundenmanager</title>
+        <script>
+            $(function () {$('[data-toggle="popover"]').popover()});
+            window.resultTable = "{{resultTable}}";
+        </script>
+    </head>
+    <body class="bg-light text-dark">
+        <div id="root"></div>
+    </body>
+</html>
